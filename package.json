@@ -1,0 +1,36 @@
+{
+  "name": "markdown-image-extractor",
+  "version": "1.0.0",
+  "description": "A simple Mardown Image Exctractor useful for websites like Mathpix or others",
+  "main": "main.js",
+  "bin": {
+    "markdown-image-extractor": "./main.js"
+  },
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suyeonORG/markdown-image-extractor.git"
+  },
+  "keywords": [
+    "nodejs",
+    "markdown",
+    "mathpix",
+    "image",
+    "mdx"
+  ],
+  "author": "suyeonORG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suyeonORG/markdown-image-extractor/issues"
+  },
+  "homepage": "https://github.com/suyeonORG/markdown-image-extractor#readme",
+  "files": [
+    "main.js",
+    "README.md"
+  ],
+  "preferGlobal": true
+}
